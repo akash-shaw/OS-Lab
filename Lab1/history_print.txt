@@ -1,0 +1,1000 @@
+  152  head and tail -2 file1.txt
+  153  tail -c file1.txt
+  154  tail -c 3 file1.txt
+  155  tail -c 8 file1.txt
+  156  head -c 8 file1.txt
+  157  head -c 3 file1.txt
+  158  cp -3 file1.txt
+  159  cp -2 file1.txt
+  160  cp --help
+  161  cp -hh -gg
+  162  cp file1.txt file2.txt
+  163  cp -hh file1.txt file3.txt
+  164  cp -3 file1.txt file3.txt
+  165  find*.txt
+  166  find *.txt
+  167  cp -n file1.txt file3.txt
+  168  grep [^aeiou] file1.txt
+  169  grep -n [^aeiou] file1.txt
+  170  grep -n -b [^aeiou] file1.txt
+  171  mv file1.txt file4.txt
+  172  ls[\aeiouAEIOU]*
+  173  ls[|aeiouAEIOU]*
+  174  ls[!aeiouAEIOU]*
+  175  ls [!aeiouAEIOU]*
+  176  find [!aeiouAEIOU]*
+  177  find. -name [!aeiouAEIOU]*
+  178  rm file4.txt
+  179  mkdir abc
+  180  mkdir abcd
+  181  mkdir abcde
+  182  rmdir abcd
+  183  ls *.txt
+  184  cat > file2.txt
+  185  ls [1234567890] *
+  186  touch abcd.txt
+  187  ls [1234567890] *
+  188  ls [!1234567890] *
+  189  cd abc
+  190  touch 123.txt
+  191  touch 4sj.txt
+  192  cat > 123.txt
+  193  cd abcde
+  194  ls [!1234567890] *
+  195  ls [1234567890] *
+  196  ls *[1234567890]*
+  197  touch gjas.txt
+  198  ls *[1234567890]*
+  199  ls
+  200  touch hekashww.txt
+  201  touch skjjfhk2kws.txt
+  202  touch akjhkah.txt
+  203  touch ekjss393.txt
+  204  ls *[!aeiouAEIOU]*
+  205  ls *[!aeiouAEIOU] *
+  206  ls [!aeiouAEIOU]*
+  207  ls *[!aeiouAEIOU]
+  208  touch kjaskasi.txt
+  209  ls *[!aeiouAEIOU]
+  210  ls * [!aeiouAEIOU]
+  211  grep -lir w*
+  212  grep w *
+  213  find . -name "????*.txt"
+  214  ls *[aeiouAEIOU]
+  215  ls 
+  216  ls *i
+  217  ls *[aeiouAEIOU].txt
+  218  ls *[!aeiouAEIOU].txt
+  219  ls *[!aeiouAEIOU]*.txt
+  220  ls [!aeiouAEIOU]*.txt
+  221  ls [!aeiouAEIOU]*[!aeiou].txt
+  222  echo $0
+  223  echo $SHELL\
+  224  pwd
+  225  mkdir <220911338>\
+  226  mkdir 220911338
+  227  ls
+  228  cd 220911338
+  229  ls]
+  230  ls
+  231  pwd
+  232  touch test1.txt
+  233  mkdir Lab01
+  234  mkdir sample
+  235  cd sample
+  236  touch test1.txt
+  237  pwd
+  238  ls -l
+  239  cat test1.txt
+  240  cat -n test1.txt
+  241  nano test1.txt
+  242  gedit test1.txt
+  243  cat test1.txt
+  244  cd..
+  245  cd ..
+  246  pwd
+  247  cd
+  248  pwd
+  249  cd 220911338
+  250  cd sample
+  251  cd .
+  252  pwd
+  253  cd
+  254  man ls
+  255  ls -a
+  256  cd 220911338
+  257  cd sample
+  258  head test1.txt
+  259  tail test1.txt
+  260  cp test1.txt home/student/220911338
+  261  cp test1.txt /home/student/220911338
+  262  touch -test1.txt
+  263  touch -- test1.txt
+  264  touch -- -test2.txt\
+  265  rm test2.txt
+  266  touch .test2.txt
+  267  ls
+  268  ls -a
+  269  gedit test2.txt
+  270  which ls
+  271  whereis ls
+  272  text1="a $(echo b) c"
+  273  text2="
+  274  a \$(echo b) c"
+  275  echo "${text1}"
+  276  echo hello
+  277  touch text2.txt
+  278  echo "${text2}"
+  279  ls > lsfile.txt
+  280  echo "this is a sample text" >> sample01.txt
+  281  more < sample01.txt
+  282  man cat
+  283  cat < lsfile.txt
+  284  ls
+  285  ls .txt*
+  286  ls . -type f -name '*.txt
+  287  exit
+  288  .
+  289  /
+  290  |
+  291  cd
+  292  '
+  293  man find
+  294  find -type f -name '*.txt'
+  295  ls '*.txt'
+  296  ls grep -P '[0-9]'
+  297  ls *.txt
+  298  ls *[0-9]*
+  299  ls *????*
+  300  ls *?????*
+  301  ls *?????????*
+  302  ls *???????????*
+  303  ls [!aeiou]*.*
+  304  cmd
+  305  grep
+  306  grep --help
+  307  ls
+  308  cd 220911646
+  309  ls
+  310  touch file1.txt
+  311  ls
+  312  cat 
+  313  ls
+  314  cat - file1.txt
+  315  cat file1.txt
+  316  ls
+  317  touch file2.txt
+  318  touch file3.txt
+  319  ls
+  320  cat > file1.txt
+  321  cat file1.txt
+  322  cat > file2.txt
+  323  cat file2.txt
+  324  grep rian file2.txt
+  325  grep -x dorian file2.txt
+  326  ls
+  327  cat file2.txt
+  328  grep ^p file2.txt
+  329  grep *p* file2.txt
+  330  grep -v ^p file2.txt
+  331  sort --help
+  332  sort file2.txt
+  333  sort -r file2.txt
+  334  cat file2.txt
+  335  cut -c 1 2 3 file2.txt
+  336  cut -c 1, 2, 3 file2.txt
+  337  cut -c 1-3 file2.txt
+  338  |
+  339  sort file2.txt | cut -c 1-3 file2.txt
+  340  cut -c 1-3 file2.txt | sort file2.txt
+  341  sort file2.txt
+  342  cut -c 1-3 file2.txt | sort
+  343  sort file2.txt | cut -c 1-3
+  344  grep hello file1.txt
+  345  grep -x hello file1.txt
+  346  grep -x hel file1.txt
+  347  ls -l
+  348  lw
+  349  ls
+  350  cat > file3.txt
+  351  cat >> file1.txt
+  352  cat file.txt
+  353  cat file1.txt
+  354  cat >> file1.txt
+  355  cat file1.txt
+  356  ls
+  357  grep -E file1.txt
+  358  cat file3.txt
+  359  cat file2.txt
+  360  cut -c 1-3 file2.txt | sort
+  361  cut -c 1-3 file2.txt | sort file2.txt
+  362  cut -c 1-3 file2.txt | sort 
+  363  grep aeolian, dorian file2.txt
+  364  grep -e aeolian dorian  file2.txt
+  365  grep aeolian file2.txt | grep aeolian file2.txt
+  366  grep aeolian file2.txt | grep dorian file2.txt
+  367  cut -c 1,3,5 file2.txt
+  368  wc 
+  369  wc -l file2.txt
+  370  wc -w file2.txt
+  371  wc -c file2.txt
+  372  ls l* file2.txt
+  373  grep ^l file2.txt | sort
+  374  grep ^l file2.txt
+  375  grep -x locrian file2.txt >> file1.txt | cat file1.txt
+  376  cat file1.txt
+  377  grep -x ^l file2.txt >> file1.txt
+  378  cat file1.txt
+  379  grep ^l file2.txt >> file1.txt
+  380  cat file1.txt
+  381  grep -e hi -e hello file1.txt
+  382  tr [1-26] [a-z] < file2.txt
+  383  tr [a-z] [1-26] file2.txt
+  384  tr [a-z] [1-26] < file2.txt\
+  385  tr [a-z] [1-26] < file2.txt
+  386  tr [1-26] [a-z] < file2.txt
+  387  tr [a-z] [1-26] < file2.txt
+  388  tr [1-26] [a-z] < file2.txt
+  389  tr [a-z] [97-122] < file2.txt
+  390  tr [a-z] [A-Z] < file2.txt
+  391  tr 'a-d' '1234' < file2.txt
+  392  tr '1-4' 'a-d' < file2.txt
+  393  tr 'a-z' '1-26' < file2.txt
+  394  tr '1-26' 'a-z' < file2.txt
+  395  ls
+  396  vi
+  397  vi +5 file2.txt
+  398  cd 220911646
+  399  vi file2.txt
+  400  cat file2.txt
+  401  cat > file2.txt
+  402  vi file2.txt
+  403  cat file2.txt
+  404  cat file1.txt
+  405  cat >> file1.txt
+  406  grep ^[A-Z] file1.txt
+  407  grep -E ^[A-Z] file1.txt
+  408  grep -e ^[A-Z] file1.txt
+  409  grep -e n^ file1.txt
+  410  grep n^ file1.txt
+  411  grep ^..$ file1.txt
+  412  grep ^...$ file1.txt
+  413  grep '^..$' file1.txt
+  414  grep '[.]$' file1.txt
+  415  grep '\.$' file1.txt
+  416  cat >> file1.txt 
+  417  grep '\.$' file1.txt
+  418  grep '[.]$' file1.txt
+  419  cat >> file1.txt
+  420  grep '[.]$' file1.txt
+  421  grep '\.$' file1.txt
+  422  cat >> file1.txt
+  423  grep '^[.]' file1.txt
+  424  grep '^[.]' file1.txt
+  425  grep '\.$' file1.txt
+  426  grep '\$.' file1.txt
+  427  grep '\.$' file1.txt
+  428  grep '[.]$' file1.txt
+  429  grep '^[.]' file1.txt
+  430  grep '^.' file1.txt
+  431  grep '^.$' file1.txt
+  432  grep '^..$' file1.txt
+  433  grep '[o]$' file1.txt
+  434  grep '^[o]' file1.txt
+  435  grep [0-9] file1.txt
+  436  cat >> file1.txt
+  437  cat  file1.txt
+  438  grep [0-9] file1.txt
+  439  grep [0-9] file1.txt >> file1.txt
+  440  grep [0-9] file1.txt >> file2.txt
+  441  cat file2.txt
+  442  grep [0-9] file1.txt >> file2.txt | cat file2.txt
+  443  grep [0-9] file1.txt >> file2.txt 
+  444  grep [0-9] file1.txt >> file2.txt | cat file2.txt
+  445  cat > file2.txt
+  446  cat file2.txt
+  447  bc
+  448  grep [0-9] file2.txt 
+  449  grep [0-9] file1.txt 
+  450  grep [0-9] file1.txt | cut -c 1  
+  451  grep [0-9] file1.txt | cut -c 2
+  452  grep [0-9] file1.txt | cut -c .
+  453  grep [0-9] file1.txt | cut -c [1-3]
+  454  grep [0-9] file1.txt | cut -c 1, 2
+  455  grep [0-9] file1.txt | cut -c 1,2
+  456  grep [0-9] file1.txt | cut -c -1
+  457  grep [0-9] file1.txt | cut -c -1,-2
+  458  cd 220911338
+  459  mkdir Lab02
+  460  cd Lab02
+  461  touch Lab2test.txt
+  462  touch fruitlist.txt
+  463  cat fruitlist.txt
+  464  nano fruitlist.txt
+  465  grep apple fruitlist.txt
+  466  grep -x apple fruitlist.txt
+  467  grep ^p fruitlist.txt
+  468  grep -v apple fruitlist.txt
+  469  sort fruitlist.txt
+  470  wc fruitlist.txt
+  471  sort -o fruitlist.txt sortedlist.txt
+  472  touch sortedlist.txt
+  473  sort -o fruitlist.txt sortedlist.txt
+  474  sort -o sortedlist.txt fruitlist.txt
+  475  tr "[a-z]" "[A-Z]" sortedlist.txt
+  476  man tr
+  477  tr "[a-z]" "[A-Z]" <sortedlist.txt
+  478  ps
+  479  kill 3681
+  480  ps
+  481  kill 4801
+  482  ps
+  483  kill -15 4802
+  484  ps
+  485  man ps
+  486  ps
+  487  cat fruitlist.txt
+  488  ps
+  489  ls &
+  490  ps
+  491  wc &
+  492  ps
+  493  kill 5023
+  494  ps
+  495  kill -KILL 5023
+  496  ps
+  497  man &
+  498  ps
+  499  kill -KILL 5027
+  500  ps
+  501  grep -lr manipal
+  502  grep -rl manipal
+  503  ls
+  504  cd 220911646
+  505  ls
+  506  cat > file2.txt
+  507  cat file2.txt
+  508  cat > file2.txt
+  509  cat file2.txt
+  510  grep '\..$' file2.txt
+  511  grep '[d]' file2.txt
+  512  grep '^[d]' file2.txt
+  513  grep '[d]$' file2.txt
+  514  grep '[n]$' file2.txt
+  515  nano
+  516  nano file1.sh
+  517  sh file1.sh
+  518  nano file1.sh
+  519  sh file1.sh
+  520  ./file1.sh
+  521  chmod 777 file1.sh
+  522  ./file1.sh
+  523  nano file1.sh
+  524  nano fil1.sh
+  525  sh file1.sh
+  526  echo $name
+  527  echo file1.sh $name
+  528  echo $name file1.sh
+  529  nano file1.sh
+  530  sh file1.sh
+  531  echo $name
+  532  ls
+  533  cd file1.sh
+  534  echo $name
+  535  sh file1.sh
+  536  nano file1.sh
+  537  sh file1.sh
+  538  nano file1.sh
+  539  sh file1.sh
+  540  nano file1.sh
+  541  sh file1.sh
+  542  nano file1.sh
+  543  sh file1.sh
+  544  nano file1.sh
+  545  sh file1.sh
+  546  nano file1.sh
+  547  sh file1.sh
+  548  nano file1.sh
+  549  sh file1.sh
+  550  nano file1.sh
+  551  sh file1.sh
+  552  nano file.sh
+  553  sh file1.sh
+  554  nano file1.sh
+  555  sh file1.sh
+  556  nano file1.sh
+  557  sh file1.sh
+  558  nano file1.sh
+  559  sh file1.sh
+  560  nano file1.sh
+  561  sh file1.sh
+  562  nano file1.sh
+  563  sh file1.sh
+  564  nano file1.sh
+  565  sh file1.sh
+  566  nano file1.sh
+  567  sh file1.sh
+  568  nano file1.sh
+  569  sh file1.sh
+  570  nano file1.sh
+  571  sh file1.sh
+  572  nano file1.sh
+  573  sh file1.sh
+  574  nano file1.sh
+  575  sh file1.sh
+  576  nano file1.sh
+  577  sh file1.sh
+  578  nano file1.sh
+  579  sh file1.sh
+  580  nano file1.sh
+  581  sh file1.sh
+  582  nano file1.sh
+  583  sh file1.sh
+  584  nano file1.sh
+  585  sh file1.sh
+  586  nano file1.sh
+  587  sh file1.sh
+  588  nano file1.sh
+  589  sh file1.sh
+  590  nano file1.sh
+  591  sh file1.sh
+  592  nano file1.sh
+  593  sh file1.sh
+  594  nano file1.sh
+  595  sh file1.sh
+  596  nano file1.sh
+  597  sh file1.sh
+  598  nano file1.sh
+  599  sh file1.sh
+  600  nano file1.sh
+  601  bash file1.sh
+  602  ./file1.sh
+  603  nano file1.sh
+  604  ./file1.sh
+  605  nano file1.sh
+  606  ./file1.sh
+  607  nano file1.sh
+  608  ./file1.sh
+  609  nano file1.sh
+  610  ./file1.sh
+  611  nano file1.sh
+  612  ./file1.sh
+  613  nano file1.sh
+  614  bash file1.sh
+  615  nano file1.sh
+  616  ./file1.sh
+  617  nano file1.sh
+  618  ./file1.sh
+  619  nano file1.sh
+  620  ./file1.sh
+  621  nano file1.sh
+  622  ./file1.sh
+  623  nano file1.sh
+  624  ./file1.sh
+  625  nano file1.sh
+  626  ./file1.sh
+  627  nano file1.sh
+  628  ./file1.sh
+  629  nano file1.sh
+  630  ./file1.sh
+  631  nano file1.sh
+  632  ./file1.sh
+  633  nano file1.sh
+  634  ./file1.sh
+  635  nano file1.sh
+  636  ./file1.sh
+  637  nano file1.sh
+  638  ./file1.sh
+  639  nano file1.sh
+  640  ./file1.sh
+  641  nano file1.sh
+  642  nano fiboNNACI.SH
+  643  nano fibonnaci.sh
+  644  ./fibonnaci.sh
+  645  chmod 777 fibonnaci.sh
+  646  ./fibonnaci.sh
+  647  nano fibonnaci.sh
+  648  ./fibonnaci.sh
+  649  nano fibonnaci.sh
+  650  ./fibonnaci.sh
+  651  nano fibonnaci.sh
+  652  ./fibonnaci.sh
+  653  nano fibonnaci.sh
+  654  ./fibonnaci.sh
+  655  nano fibonnaci.sh
+  656  ./fibonnaci.sh
+  657  nano fibonnaci.sh
+  658  ./fibonnaci.sh
+  659  nano fibonnaci.sh
+  660  ./fibonnaci.sh
+  661  gedit fibonnaci.sh
+  662  nano fibonnaci.sh
+  663  nano cd labwork
+  664  cd labwork
+  665  #!/bin/sh
+  666  cd 220911338
+  667  mkdir Lab03
+  668  cd Lab03
+  669  gedit text.sh
+  670  cat text.sh
+  671  chmod 777 test.sh
+  672  chmod 777 text.sh
+  673  chmod 777 ./text.sh
+  674  ./text.sh
+  675  text.sh
+  676  sh text.sh
+  677  gedit file.sh
+  678  chmod 777 ./file.sh
+  679  sh file.sh
+  680  chmod 777 ./file.sh
+  681  sh file.sh
+  682  bash file.sh
+  683  sh file.sh
+  684  bash file.sh
+  685  gedit exp.sh
+  686  bash exp.sh
+  687  gedit test.sh
+  688  bash test.sh
+  689  gedit test1.sh
+  690  bash test1.sh
+  691  gedit lab3.txt
+  692  ./help
+  693  ls
+  694  cd 220911646
+  695  ls
+  696  ./fibonnaci.sh
+  697  ./file1.sh
+  698  nano file1.sh
+  699  ./file1.sh
+  700  nano lab4_file1.sh
+  701  ./lab4_file.sh $1
+  702  chmod 777 lab4_file1.sh
+  703  ./ lab4_file1.sh $1
+  704  ./lab4_file1.sh $1
+  705  ./lab4_file1.sh $1 $2
+  706  ./lab4_file1.sh echo $0
+  707  nano lab4_file1.sh
+  708  ./lab4_file1.sh
+  709  echo $0
+  710  echo $1
+  711  echo $2
+  712  echo $2 lab4_file1.sh
+  713  echo $1 lab4_file1.sh
+  714  nano new_file1.sh
+  715  ./new_file1.sh $1 $2 hi hello
+  716  chmod 777 new_file1.sh
+  717  ./new_file1.sh $1 $2 hi hello
+  718  ./new_file1.sh
+  719  nano new_file1.sh
+  720  ./new_file1.sh
+  721  nano new_file1.sh
+  722  ./new_file1.sh
+  723  nano new_file1.sh
+  724  ./new_file1.sh
+  725  nano new_file1.sh
+  726  ./new_file1.sh
+  727  nano new_file1.sh
+  728  ./new_file1.sh
+  729  nano new_file1.sh
+  730  ./new_file1.sh
+  731  nano new_file1.sh
+  732  ./new_file1.sh
+  733  nano new_file1.sh
+  734  ./new_file1.sh
+  735  nano new_file1.sh
+  736  ./new_file1.sh
+  737  nano new_file1.sh
+  738  ./new_file1.sh
+  739  ./fibonnaci.sh
+  740  ./new_file1.sh
+  741  nano new_file1.sh
+  742  ./new_file1.sh
+  743  nano new_file1.sh
+  744  ./new_file1.sh
+  745  nano new_file1.sh
+  746  ./new_file1.sh
+  747  nano new_file1.sh
+  748  nano array.sh
+  749  ./new_file1.sh
+  750  chmod 777 arr.sh
+  751  chmod 777 array.sh
+  752  ./array.sh
+  753  nano array.sh
+  754  ./array.sh
+  755  nano array.sh
+  756  ./array.sh
+  757  nano array.sh
+  758  ./array.sh
+  759  nano array.sh
+  760  ./array.sh
+  761  nano array.sh
+  762  ./array.sh
+  763  nano array.sh
+  764  ./array.sh
+  765  cd 220911646
+  766  ]ls 
+  767  ls
+  768  nano array.sh
+  769  ./array.sh
+  770  nano array.sh
+  771  ./array.sh
+  772  nano array.sh
+  773  ./array.sh
+  774  nano array.sh
+  775  ./array.sh
+  776  nano array.sh
+  777  ./array.sh
+  778  nano array.sh
+  779  ./array.sh
+  780  nano array.sh
+  781  ./array.sh
+  782  nano array.sh
+  783  ./array.sh
+  784  nano array.sh
+  785  ./array.sh
+  786  nano array.sh
+  787  ./array.sh
+  788  ./array.sh
+  789  nano array.sh
+  790  nano lab4_1.sh
+  791  ./lab4_1.sh array.sh
+  792  chmod 777 lab4_1.sh
+  793  ./lab4_1.sh array.sh
+  794  ./array.sh
+  795  nano array.sh
+  796  chmod 777 file1.txt
+  797  ls
+  798  ./file1.txt
+  799  cat > file1.txt
+  800  cat file1.txt
+  801  cat > file1.txt
+  802  cat file1.txt
+  803  ./array.sh
+  804  cat file1.txt
+  805  grep '^i' file1.txt
+  806  grep i file1.txt
+  807  grep 'i*' file1.txt
+  808  grep 'n$' file1.txt
+  809  cat > file1.txt
+  810  cat file1.txt
+  811  exit
+  812  cd 220911646
+  813  ls
+  814  ls | grep [*.txt]
+  815  ls | grep [*txt]
+  816  ls | grep [^txt]
+  817  ls | grep [txt$]
+  818  ls | grep [^txt$]
+  819  ls | grep [*txt]
+  820  ls | grep [0-9]
+  821  ls | grep -v [^...$] |grep -v [^...$] |  
+  822  ls | grep -v [^...$] | grep -v [^..$] | grep -v [^.$]   
+  823  ls | grep -v [^...$] 
+  824  touch h.txt
+  825  ls | grep -v [^...$] 
+  826  ls | grep [^...$] 
+  827  ls | grep -v [^...$] | grep -v [^..$] | grep -v [^.$]   
+  828  ls | grep [!aeiouAEIOU] 
+  829  ls | grep -v [^aeiouAEIOU] 
+  830  ls | grep -v [aeiouAEIOU] 
+  831  ls | grep -v [aeiouAEIOU$] 
+  832  grep --help
+  833  touch hello.c
+  834  ls
+  835  nano hello.c
+  836  gcc hello.c
+  837  nano hello.c
+  838  ls
+  839  ./a.out
+  840  nano subsets.py
+  841  ./subsets.py
+  842  chmod 777 subsets.py
+  843  ./subsets.py
+  844  python
+  845  deb python3
+  846  python3
+  847  nano hello.c
+  848  gcc hello.c
+  849  ./a.out
+  850  gcc -o hello_file hello.c
+  851  ./hello_file.out
+  852  ./hello_file
+  853  ls
+  854  nano execv_file.c
+  855  gcc -o execv_f execv_file.c
+  856  nano execv_file.c
+  857  gcc -o execv_f execv_file.c
+  858  ./execv_f
+  859  nano execv_file.c
+  860  ls
+  861  ./execv_f
+  862  clear
+  863  ./execv_f
+  864  cd 220911338
+  865  cd Lab04
+  866  touch 1.sh
+  867  gedit 1.sh
+  868  ./1.sh MANIPAL INSTITUTE OF TECHNOLOGY
+  869  chmod 777 1.sh
+  870  ./1.sh MANIPAL INSTITUTE OF TECHNOLOGY
+  871  pwd
+  872  echo bash
+  873  user
+  874  ostype
+  875  echo user
+  876  echo $user
+  877  echo $path
+  878  echo $home
+  879  echo $HOME
+  880  echo $PATH
+  881  echo $USER
+  882  echo $BASH
+  883  echo $BASH_VERSION
+  884  echo $LOGNAME
+  885  echo $LINES
+  886  echo $PSI
+  887  echo $SHELL
+  888  echo $PS1
+  889  touch 2.sh
+  890  gedit 2.sh
+  891  chmod 777 2.sh
+  892  ./2.sh
+  893  gedit 2.sh
+  894  chmod 777 2.sh
+  895  ./2.sh
+  896  touch 3.sh
+  897  gedit 3.sh
+  898  chmod 777 3.sh
+  899  ./3.sh
+  900  chmod 777 3.sh
+  901  ./3.sh
+  902  ./3.sh 5 5 6 6 7 7
+  903  touch 4.sh
+  904  gedit4.sh
+  905  gedit 4.sh
+  906  chmod 777 4.sh
+  907  ./4.sh
+  908  chmod 777 4.sh
+  909  ./4.sh
+  910  chmod 777 4.sh
+  911  ./4.sh
+  912  chmod 777 4.sh
+  913  ./4.sh
+  914  touch 5.sh
+  915  gedit 5.sh
+  916  chmod 777 5.sh
+  917  ./5.sh
+  918  chmod 777 5.sh
+  919  ./5.sh
+  920  chmod 777 5.sh
+  921  ./5.sh
+  922  chmod 777 5.sh
+  923  ./5.sh
+  924  touch 6.sh
+  925  gedit 6.sh
+  926  gcc hello.c
+  927  gcc -o hello hello.c
+  928  ./hello
+  929  cd 220911338
+  930  mkdir lab05
+  931  gcc hello.c
+  932  gcc -o hello hello.c
+  933  gcc hello.c
+  934  cd lab05
+  935  gcc -o hello hello.c
+  936  ./hello
+  937  cd 220911338
+  938  mkdir Lab 06
+  939  cd Lab 06
+  940  cd Lab
+  941  cd Lab06
+  942  cd 220911338
+  943  cd Lab06
+  944  touch 1.c
+  945  gedit 1.c
+  946  ./1.c
+  947  chmod 777 1.c
+  948  ./1.c
+  949  chmod 777 1.c
+  950  ./1.c
+  951  gcc -o 1.c 1
+  952  gcc 1.c -o 1
+  953  ./1
+  954  cd 220911338
+  955  cd Lab06
+  956  gcc 1.c -0 1
+  957  gcc 1.c -o 1
+  958  ./1
+  959  touch 2.c
+  960  gedit 2.c
+  961  gcc 2.c -o 2
+  962  ./2
+  963  gcc 2.c -o 2
+  964  ./2
+  965  sudo apt install curl
+  966  sudo apt install brave-browser
+  967  ls
+  968  cd 220911646
+  969  ls
+  970  gcc lab6.c -o damn
+  971  ls
+  972  damn
+  973  ./damn
+  974  gcc -pthread ProdCon.c
+  975  ./a out 3
+  976  ./a.out 3
+  977  ./a.out 7
+  978  cd 220911338
+  979  cd Lab08
+  980  gcc 1.c -o 1.exe
+  981  ./1.c
+  982  gcc 1.c -o 1
+  983  ./1.c
+  984  ./1
+  985  touch 1.c
+  986  gedit 1.c
+  987  gcc 1.c -o 1
+  988  ./1
+  989  gcc 1.c -o 1
+  990  ./1
+  991  gcc 1.c -o 1
+  992  ./1
+  993  gcc first_fit.c -o okok
+  994  ./okok
+  995  touch q1.c
+  996  gedit q1.c
+  997  gcc q1.c -o q1
+  998  ./q1
+  999  gcc q1.c -o q1
+ 1000  ./q1
+ 1001  gcc q1.c -o q1
+ 1002  ./q1
+ 1003  text
+ 1004  ls
+ 1005  gcc dynamic_storage_allocation.c -o dyn
+ 1006  ./dyn
+ 1007  gcc dynamic_storage_allocation.c -o dyn
+ 1008  ./dyn
+ 1009  gcc dynamic_storage_allocation.c -o dyn
+ 1010  ./dyn
+ 1011  gcc dynamic_storage_allocation.c -o dyn
+ 1012  ./dyn
+ 1013  gcc dynamic_storage_allocation.c -o dyn
+ 1014  ./dyn
+ 1015  ls
+ 1016  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1017  ./disc_sc
+ 1018  ./disk_sc
+ 1019  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1020  ./disk_sc
+ 1021  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1022  ./disk_sc
+ 1023  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1024  ./disk_sc
+ 1025  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1026  ./disk_sc
+ 1027  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1028  ./disk_sc
+ 1029  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1030  ./disk_sc
+ 1031  gcc disk_scheduling_algorithms.c -o disk_sc
+ 1032  ./disk_sc
+ 1033  touch 1.c
+ 1034  gedit 1.c
+ 1035  1.c -o gcc 1
+ 1036  gcc 1.c -o 1
+ 1037  ./1
+ 1038  gcc 1.c -o 1
+ 1039  ./1
+ 1040  gcc 1.c -o 1
+ 1041  ./1
+ 1042  ls
+ 1043  mkdir 230953530
+ 1044  ls
+ 1045  cd 230953530
+ 1046  pwd
+ 1047  ls
+ 1048  nano a.txt
+ 1049  man ls
+ 1050  date
+ 1051  hello
+ 1052  hello?
+ 1053  hello?.
+ 1054  bc<<<9+5
+ 1055  9+5
+ 1056  bc manas
+ 1057  bc<<<manas
+ 1058  ls
+ 1059  230953530
+ 1060  ls
+ 1061  ls l
+ 1062  ls_l
+ 1063  ls-l
+ 1064  ls 
+ 1065  ls -l
+ 1066  l;k -l --color
+ 1067  ls -l --color
+ 1068  cat 230953530
+ 1069  man 
+ 1070  man
+ 1071  man man
+ 1072  man
+ 1073  man ls
+ 1074  pwd
+ 1075  cd
+ 1076  cat
+ 1077  man man
+ 1078  man ls
+ 1079  ctrl+c
+ 1080  ls
+ 1081  ls bob darlene
+ 1082  ls
+ 1083  ls -l
+ 1084  ls -l --color
+ 1085  cat 230953530
+ 1086  cd/home/student/documents
+ 1087  cd documents
+ 1088  cd Documents
+ 1089  cd abc
+ 1090  pwd
+ 1091  man locate
+ 1092  clear
+ 1093  cd ..
+ 1094  cd
+ 1095  cd .
+ 1096  cat Documents
+ 1097  cat file.txt
+ 1098  head/Documents
+ 1099  head 
+ 1100  ls head
+ 1101  head -n/o a.txt
+ 1102  head -n|o a.txt
+ 1103  echo 4SHELL
+ 1104  echo $SHELL
+ 1105  CLEAR
+ 1106  clera
+ 1107  clear
+ 1108  ls
+ 1109  230953254
+ 1110  cd 230953254
+ 1111  pwd
+ 1112  lks -L
+ 1113  ls -l
+ 1114  cd..
+ 1115  ls -l
+ 1116  cd ..
+ 1117  ls -l
+ 1118  clear
+ 1119  man ls
+ 1120  ls
+ 1121  rm file1
+ 1122  rm file2
+ 1123  rm file3
+ 1124  ls
+ 1125  ls -F
+ 1126  cd 230953254
+ 1127  ls
+ 1128  touch file1 file2 file3 file4 file5 file6
+ 1129  ls
+ 1130  rm file*
+ 1131  ls
+ 1132  touch file1 file2 file3 file4 file5 file6
+ 1133  ls
+ 1134  rm file6
+ 1135  cat > file6
+ 1136  cat file6
+ 1137  lsw
+ 1138  ls
+ 1139  cat > file6
+ 1140  cat  file6
+ 1141  cat > file6
+ 1142  cat  file6
+ 1143  cat >> file6
+ 1144  cat  file6
+ 1145  ls file*
+ 1146  touch file 7.txt
+ 1147  rm file 7.txt
+ 1148  touch file7.txt
+ 1149  ls file?
+ 1150  cat .bash_history
+ 1151  history > history_print.txt

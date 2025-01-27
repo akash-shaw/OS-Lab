@@ -1,0 +1,5 @@
+apple
+orage
+pineapple
+pen
+guava
