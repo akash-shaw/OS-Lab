@@ -1,24 +1,23 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX_P 10  // max processes
-#define MAX_R 10  // max resources
+#define MAX_P 10 
+#define MAX_R 10 
 
-int n, m; // Number of processes and resources
+int n, m; 
 
 int Available[MAX_R];
 int Max[MAX_P][MAX_R];
 int Allocation[MAX_P][MAX_R];
 int Need[MAX_P][MAX_R];
 
-// Function to calculate Need matrix
+
 void calculateNeed() {
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             Need[i][j] = Max[i][j] - Allocation[i][j];
 }
 
-// Safety Algorithm
 bool isSafe() {
     int Work[MAX_R];
     bool Finish[MAX_P] = {false};
@@ -50,15 +49,14 @@ bool isSafe() {
         }
 
         if (!found) {
-            return false; // not safe
+            return false; 
         }
     }
     return true;
 }
 
-// Resource Request Algorithm
 bool requestResources(int pid, int Request[]) {
-    // Step 1: Check if Request <= Need
+
     for (int i = 0; i < m; i++) {
         if (Request[i] > Need[pid][i]) {
             printf("Error: Process has exceeded its maximum claim.\n");
@@ -66,7 +64,7 @@ bool requestResources(int pid, int Request[]) {
         }
     }
 
-    // Step 2: Check if Request <= Available
+
     for (int i = 0; i < m; i++) {
         if (Request[i] > Available[i]) {
             printf("Resources not available. Process must wait.\n");
@@ -74,14 +72,12 @@ bool requestResources(int pid, int Request[]) {
         }
     }
 
-    // Step 3: Pretend to allocate
     for (int i = 0; i < m; i++) {
         Available[i] -= Request[i];
         Allocation[pid][i] += Request[i];
         Need[pid][i] -= Request[i];
     }
 
-    // Check if new state is safe
     if (isSafe()) {
         printf("Request granted. System remains in a safe state.\n");
         return true;
@@ -97,7 +93,6 @@ bool requestResources(int pid, int Request[]) {
     }
 }
 
-// Print current state
 void printState() {
     printf("\nProcess\tAllocation\tMax\t\tNeed\n");
     for (int i = 0; i < n; i++) {

@@ -7,7 +7,7 @@ struct Hole {
 };
 
 struct Process {
-    int size, allocatedHole; // -1 means not allocated
+    int size, allocatedHole; 
 };
 
 void resetHoles(struct Hole holes[], int n) {
@@ -44,7 +44,7 @@ void firstFit(struct Hole h[], int nh, struct Process p[], int np) {
 }
 
 void bestFit(struct Hole h[], int nh, struct Process p[], int np) {
-    // Sort holes by size (ascending)
+
     for (int i = 0; i < nh - 1; i++) {
         for (int j = i + 1; j < nh; j++) {
             if (h[j].size < h[i].size) {
@@ -74,11 +74,10 @@ int main() {
     struct Hole holes[MAX] = {{100, 100, 0}, {500, 500, 1}, {200, 200, 2}};
     struct Process processes[MAX] = {{212, -1}, {417, -1}, {112, -1}, {426, -1}};
 
-    // First Fit
     resetHoles(holes, nh);
     firstFit(holes, nh, processes, np);
 
-    // Best Fit
+
     struct Hole bestFitHoles[MAX] = {{100, 100, 0}, {500, 500, 1}, {200, 200, 2}};
     resetHoles(bestFitHoles, nh);
     bestFit(bestFitHoles, nh, processes, np);

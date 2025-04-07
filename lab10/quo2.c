@@ -18,7 +18,7 @@ void printFrames(int frames[], int nf) {
 
 void lru(int pages[], int np, int nf) {
     int *frames = (int *)malloc(nf * sizeof(int));
-    int *recent = (int *)malloc(nf * sizeof(int)); // store time of last use
+    int *recent = (int *)malloc(nf * sizeof(int));
     int time = 0, faults = 0;
 
     for (int i = 0; i < nf; i++) {
@@ -32,7 +32,7 @@ void lru(int pages[], int np, int nf) {
         int page = pages[i];
         int idx = isPresent(frames, nf, page);
 
-        if (idx == -1) { // page fault
+        if (idx == -1) { 
             int lruIndex = 0;
             for (int j = 1; j < nf; j++)
                 if (recent[j] < recent[lruIndex]) lruIndex = j;
@@ -41,7 +41,7 @@ void lru(int pages[], int np, int nf) {
             recent[lruIndex] = time;
             faults++;
         } else {
-            recent[idx] = time; // update last used time
+            recent[idx] = time;
         }
 
         time++;
@@ -56,7 +56,7 @@ void lru(int pages[], int np, int nf) {
 
 int main() {
     int nf;
-    int pages[] = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3}; // Hardcoded
+    int pages[] = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3}; 
     int np = sizeof(pages) / sizeof(pages[0]);
 
     printf("Enter number of frames: ");

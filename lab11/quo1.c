@@ -111,7 +111,6 @@ int main() {
     int n = 8, head = 50, disk_size = 200;
     requests = (int *)malloc(n * sizeof(int));
 
-    // Hardcoded input
     int test[] = {98, 183, 37, 122, 14, 124, 65, 67};
     for (int i = 0; i < n; i++) requests[i] = test[i];
 

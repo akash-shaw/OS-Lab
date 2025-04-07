@@ -50,7 +50,7 @@ int predict(int pages[], int np, int frames[], int nf, int index) {
                 break;
             }
         }
-        if (j == np) return i; // Never used again
+        if (j == np) return i; 
     }
     return (pos == -1) ? 0 : pos;
 }
@@ -80,9 +80,9 @@ void optimal(int pages[], int np, int nf) {
 }
 
 int main() {
-    // Hardcoded input for simplicity
-    int nf = 3; // number of frames
-    int np = 12; // number of pages
+
+    int nf = 3; 
+    int np = 12;
     int pages[] = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3};
 
     printf("Number of Frames: %d\n", nf);

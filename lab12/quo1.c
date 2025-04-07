@@ -95,7 +95,6 @@ int main() {
     int n = 3;
     Task *tasks = (Task *)malloc(n * sizeof(Task));
 
-    // Hardcoded input: ID, Execution Time, Period
     tasks[0] = (Task){1, 1, 4, 0, 0, 0};  // Task 1: exec=1, period=4
     tasks[1] = (Task){2, 2, 5, 0, 0, 0};  // Task 2: exec=2, period=5
     tasks[2] = (Task){3, 1, 20, 0, 0, 0}; // Task 3: exec=1, period=20
